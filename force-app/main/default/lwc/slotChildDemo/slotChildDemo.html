@@ -1,0 +1,23 @@
+<template>
+  <lightning-card title="Slot Demo Child">
+    <div
+      class="slds-var-m-around_medium slds-border_bottom slds-border_left slds-border_right slds-border_top"
+    >
+      what is your name?
+      <div><slot name="name"></slot></div>
+      what is your age?
+      <div><slot name="age"></slot></div>
+    </div>
+    <div
+      class="slds-var-m-around_medium slds-p-around_medium slds-border_bottom slds-border_left slds-border_right slds-border_top"
+    >
+      what is your name?
+      <div><slot name="name"></slot></div>
+      what is your age?
+      <div><slot name="age"></slot></div>
+      <footer class="ft slds-card__footer slds-hide">
+        <slot name="footer" onslotchange={slotChange}></slot>
+      </footer>
+    </div>
+  </lightning-card>
+</template>

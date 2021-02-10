@@ -1,0 +1,19 @@
+<template>
+  <lightning-card title="dynamic css">
+    <div class="slds-m-around_medium">
+      <lightning-input
+        label="Input a number: "
+        type="number"
+        value={widthVal}
+        onchange={changeHandler}
+      ></lightning-input>
+      <br />
+      <div
+        style={getWidthVal}
+        class="slds-notify slds-notify_alert slds-alert_offline"
+      >
+        this is an alert.
+      </div>
+    </div>
+  </lightning-card>
+</template>

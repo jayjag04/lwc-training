@@ -1,0 +1,12 @@
+<template>
+  <lightning-card title="calling child method from parent">
+    <div class="slds-m-around_medium">
+      Val is : {val}
+      <lightning-slider
+        label="Volume"
+        value={val}
+        onchange={changeHandler}
+      ></lightning-slider>
+    </div>
+  </lightning-card>
+</template>

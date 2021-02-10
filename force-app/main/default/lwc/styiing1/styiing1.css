@@ -1,0 +1,13 @@
+@import 'c/cssLibrary';
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.css {
+    width: 90%;
+    background-color: #45ed45;
+}

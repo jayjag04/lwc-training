@@ -1,0 +1,17 @@
+<template>
+  <lightning-card title="PubSub Comp A">
+    <div class="slds-var-m-around_medium">
+      <lightning-input
+        type="text"
+        onkeyup={inputHandler}
+        class="slds-m-bottom_medium"
+      >
+      </lightning-input>
+      <lightning-button
+        variant="button"
+        onclick={publishHandler}
+        label="Publish"
+      ></lightning-button>
+    </div>
+  </lightning-card>
+</template>
